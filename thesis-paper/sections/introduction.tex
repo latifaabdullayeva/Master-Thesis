@@ -1,0 +1,122 @@
+\chapter{Introduction}
+\label{ch:introduction}
+
+\section{Motivation}
+\label{sec:motivation}
+The rapid development of the area of Information Technology led to the
+emergence of a new paradigm known as "Internet of Things".
+IoT adds a new dimension by focusing not only on the interaction between
+humans and devices but also on the devices themselves.
+However, the concept of IoT does not ensure the effective discovery of the
+objects and the better reaction to the states of other objects.
+A new paradigm "Social Internet of Things" (SIoT) introduces more autonomous
+interaction between "things" by applying the notion of Social Relationship of
+things rather than explicit users' instructions.
+However, the ambition of having autonomous interaction of things increases
+the complexity of a system without having users in mind.
+Throughout this paper, "things" based on the SIoT concept will be referred to as
+"social things" or "social devices" for convenience.
+
+Social things interact with each other without making visible to the user their decisions.
+Thus, it is unrealistic to assume that the autonomous decisions made by
+social things will always be in line with users' expectations.
+Given this problem, we are motivated to find and investigate an approach
+that will take the user's context into account.
+As a result, the system that achieves the cooperation of social things
+where things are assigned with unique personalities is proposed.
+A user being able to configure the personality of the social device will be ensured about
+the consistent behavior of devices where the services provided by these devices will remain dynamic.
+We assume that the concept of the personality with predefined actions increases a user's
+awareness of a system and serves as an interaction mechanism inside the SIoT environment.
+
+The system implemented in this thesis was inspired by the "Autonomous Cooperation of Social Things"
+paper~\cite{okada2016autonomous},
+where authors achieve the interaction between mascot and bench as case
+studies by representing to cooperation among private and public things.
+A more detailed description of a system and its contribution is described
+in Section~\ref{sec:Autonomous interaction of things}.
+Additionally, authors introduce social things concept where things have unique personalities.
+However, they do not use personality from a design perspective.
+In their system, a mascot interacts with a bench that shows only static behavior based on the user's position in space.
+We plan to apply the personality concept as a design process and bring it to the
+behavior of social things where they will react to each other dynamically based on the personality of a social device.
+The use of the personality concept as a design process may help users to
+create a mental model about the behavior of social devices and their environment.
+Thus, we envision that the concept of personality with preset actions will influence
+not only the interaction between social things but also between the user and social things.
+
+\section{Research Goals}
+\label{sec:research-goals}
+As we mentioned in the previous Section~\ref{sec:motivation}, from the user perspective, social devices introduced
+in the paper~\cite{okada2016autonomous} have static behavior.
+Users are not able to configure devices or input some information and see the output accordingly.
+Considering the role of the human in the SIoT environment, in our system, the personality with preset
+actions serves as an interface for interaction between user and its environment including social devices.
+
+Therefore, as an input, we use the configuration of mascot's personality and proximity
+information of the user's movements.
+As an output, we use actions that all social things in the environment display
+(i.e change of light, vibration, music play, and screen color alteration) based
+on the personality information that the user configured.
+
+To wrap it up, we extend the system introduced in a paper~\cite{okada2016autonomous} by adding:
+\begin{itemize}
+    \item More case studies such as mascot-lamp, mascot-speakers, mascot-mascot, and mascot-tablet interactions.
+    Thus, the cooperation among private and public things proposed by the previous system~\cite{okada2016autonomous}
+    is now extended to more interaction types (see Section~\ref{sec:Identifying case studies and actions})
+    \item Preset actions for each case-study with a changing:
+    \begin{itemize}
+        \item Lighting colors such as yellow, orange, turquoise, pink, blood-red lighting color for a mascot-lamp interaction.
+        \item Music types such as sophisticated, contemporary, unpretentious music for mascot-speakers interaction.
+        \item Vibrations with five different durations starting from 100 to
+        500 milliseconds per time for mascot-mascot interaction.
+        \item Background screen colors such as yellow, orange, turquoise, pink, blood-red screen background for mascot-tablet interaction.
+    \end{itemize}
+\end{itemize}
+Chapter~\ref{ch:concept} is completely dedicated to the design of a system and
+the concepts applied in this research in more detail.
+
+Given the extended SIoT system, the main focus lies on how people interpret
+the interaction between user and social devices.
+A person holding a mascot changes the state of all devices in the system by his movements.
+Thus, the question that arises is: "How people will interpret the following actions of things such as
+lighting color change, music play, vibration duration and screen color
+alternation in the context of personality traits?"
+We suppose that the interactions between a mascot and other social
+devices give a descriptive clue about the personality of this mascot.
+Therefore, we empirically investigate each action individually and analyze the impact of predefined
+actions on the measurements of mascot's personality and which personality traits
+these actions convey (see Chapters~\ref{ch:results}, ~\ref{ch:discussions} and ~\ref{ch:conclusion}).
+Thus, for each case study, the goal is to settle the question of how people understand devices' actions
+and measure the personality trait of the mascot based on the interactions between users and these social devices.
+
+\section{Outline of Thesis}
+\label{sec:outline-of-thesis}
+After presenting motivation and research goals (see Chapter~\ref{ch:introduction}), in Chapter~\ref{ch:related-work},
+an overview of scientific publications that are relevant to the thesis is given.
+The related work chapter also describes current works that inspired us to investigate further
+and the methodologies that are applied to expand the existing system.
+
+Chapter~\ref{ch:concept} introduces the papers that aid us to come up with case-studies;
+identify personality traits that each mascot will be assigned;
+identify such actions as vibration, music play, lighting,
+and screen color change based on the personality trait concept.
+
+Chapter~\ref{ch:implementation} describes the implementation details of the system providing the
+interaction between social things with preset personality.
+The implementation chapter includes client and server architectures,
+the overall workload of a system, software, and hardware used to implement the system.
+
+Chapter~\ref{ch:user-study} includes the user study, namely, describes the design of
+experiments, procedures, tasks, and materials used for the experiments.
+
+Chapter~\ref{ch:results} presents the statistical analysis of all four case-studies.
+The analysis measured from two perspectives framed into two separate sub-studies.
+
+Chapter~\ref{ch:discussions} covers the discussion of statistical results for each case-study.
+
+Chapter~\ref{ch:conclusion} gives an overview of the results, contributions,
+possible limitations of a study, and future works that can extend existing study.
+
+Appendices cover the step-by-step instructions on how to set up the system, questionnaires used
+during experiments, and the expanded tables of the results from statistical tests.

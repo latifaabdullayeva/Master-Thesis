@@ -1,0 +1,117 @@
+\input{sections/c0/header}
+% for Block diagrams (start)
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{makecell}
+\usepackage{tabu, booktabs}
+% for Block diagrams (end)
+\usepackage{appendix}
+
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{pdfpages}
+\usepackage{subcaption}
+
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{caption}
+
+\usepackage{fixltx2e}
+\usepackage[bottom]{footmisc}
+
+\usepackage{listings}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{backcolour}{rgb}{245,247,248}
+\lstdefinestyle{customc}{
+backgroundcolor=\color{backcolour},
+breaklines=true,
+showstringspaces=false,
+basicstyle=\footnotesize\ttfamily,
+belowcaptionskip=1\baselineskip,
+frame=TB,
+xleftmargin=\parindent,
+language=C,
+numbers=left,
+numbersep=5pt,
+showspaces=false,
+showtabs=false,
+tabsize=2,
+numberstyle=\tiny\color{codegray}
+}
+\lstset{escapechar=@,style=customc}
+
+\usepackage{forest}
+
+\usepackage{blindtext}
+\usepackage{scrextend}
+\addtokomafont{labelinglabel}{\sffamily}
+
+\begin{document}
+\lstset{language=Java, basicstyle=\footnotesize}
+
+\renewcommand{\thepage}{\roman{page}}
+\newcommand{\monthword}[1]{\ifcase#1\or January\or February\or March\or April\or
+                                        May\or June\or July\or August\or
+                                        September\or October\or November\or December\fi} 
+
+\input{sections/c0/titlepage}
+\input{sections/c0/secondpage}
+\clearpage
+\input{sections/c0/declaration}
+\clearpage
+\input{sections/c0/acks}
+\clearpage
+\input{sections/c0/abstract}
+
+\clearpage
+
+\begingroup
+  \pagestyle{plain}
+
+\setcounter{tocdepth}{2}
+  \addtocontents{toc}{\protect\thispagestyle{plain}}
+  \addtocontents{toc}{\protect\vspace{-.45cm}}
+  \tableofcontents
+  \clearpage
+\endgroup 
+
+\pagestyle{fancy}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+
+\input{sections/introduction}
+\input{sections/relatedWork}
+\input{sections/concept}
+\input{sections/implementation}
+\input{sections/userstudy}
+\input{sections/results}
+\input{sections/discussions}
+\input{sections/conclusion}
+
+\appendix
+\input{sections/appendices}
+
+%  !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!
+
+%Bitte stelle sicher, dass die Bibliographie konsistent ist! Darunter fallen:
+%- Konferenzen sollen immer gleich heißen, wenn sie von der gleichen Serie stammen. 
+%- Wenn ein Titel capitalized dargestellt ist, sollen alle Titel so dargestellt werden.
+%- Die gleiche Menge an Informationen soll in jedem Eintrag vorhanden sein. Du hast 1x den Verlag mit angegeben? Dann soll der Verlag überall erscheinen. Oder einmal eine DOI mit angegeben? Dann bitte überall eine DOI mitangeben.
+%- Bitte prüfe vor jeder Abgabe die Konsistenz des Verzeichnisses. 
+
+%HINWEIS: Der bibliographystyle darf geändert werden. 
+
+	\cleardoublepage
+\begingroup
+	\phantomsection
+  \pagestyle{plain}
+  \bibliographystyle{SIGCHI-Reference-Format}
+   \phantomsection
+	\addcontentsline{toc}{chapter}{Bibliography}
+	\interlinepenalty=10000 %prevents bibtex that are one two pages.
+	\bibliography{thesis}\emph{}	
+	\vfill
+  \clearpage
+\endgroup 
+\end{document}

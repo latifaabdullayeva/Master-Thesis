@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbe8ef"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".LampInitialisation">
+
+    <TextView
+        android:id="@+id/IntroTextBeaconLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/choose_one_beacon_for_lamp"
+        android:textColor="#FDB91266"
+        android:textSize="22sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listViewBeaconForLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/showSelectedBeaconForLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FDB91266"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonBeaconSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDB91266"
+        android:text="@string/save"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

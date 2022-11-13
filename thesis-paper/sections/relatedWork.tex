@@ -1,0 +1,337 @@
+\chapter{Related Work}
+\label{ch:related-work}
+This chapter presents the background publications related and applied in our research.
+Sections~\ref{sec:Ubiquitous Computing}, ~\ref{sec:Internet of Things}, and ~\ref{sec:Social Internet of Things}
+provide an introduction of basic concepts related to the system.
+Section~\ref{sec:Autonomous interaction of things} presents a system that inspired us to expand
+and use in a user study.
+Starting from section~\ref{sec:The Theory of Proxemics}, we discuss some methodologies
+that help us to expand the existing system.
+Each section presents the related publications, gives an example of projects where these concepts
+were used and describe how we used these concepts in our study.
+
+\section{Ubiquitous Computing}
+\label{sec:Ubiquitous Computing}
+The attempts to make technologies invisible in the background of people’s life led to the emergence
+of a new approach in the area of Information Technology whereby making the term
+Ubiquitous Computing prominent in recent years.
+The “Ubiquitous Computing” was initially put forward by Mark Weiser
+in “The computer for the 21st Century” ~\cite{weiser1999computer}.
+In this paper, the author touched two issues related to the concept of
+Ubiquitous Computing such as location and scale.
+
+The traditional computers which existed before the introduction of this
+paradigm had no idea about their location.
+The location-aware system has an information about how far or close it is from other
+objects and may even later be able to adapt its behavior accordingly.
+An example application that leveraged the location-aware paradigm was introduced by
+Hupfeld and Berge in their RAUM system ~\cite{hupfeld2000spatially}.
+The authors claim that information about the location of objects plays
+a more important role than their identities.
+They explain the essence of location by giving an example of people who prefer to communicate
+while standing in front of the person who participates in the conversation, rather than turning their backs on him.
+With the help of the concept of Ubiquitous Computing, the system presented in our
+research uses the location information to select a communication partner.
+
+Another issue related to the concept of Ubiquitous Computing is the scale,
+that is, systems of various sizes serve different purposes~\cite{weiser1999computer}.
+In the context of our system, mascot, tablet, lamp, and speakers are all in
+different sizes and, therefore, perform different tasks.
+Moreover, the size of objects is also reflected in its location, for example, a lamp, compared
+to other devices has a larger size, which limits its location to one point, whereas the mascot
+which is a pocket-size smartphone allows changing the location depending on the location of its owner.
+
+\section{Internet of Things}
+\label{sec:Internet of Things}
+The rapid development of electronics led to the emergence of the concept of “Internet of Things”.
+IoT can be both ubiquitous and non-ubiquitous technologies.
+Moreover, in the context of Ubiquitous
+Computing, IoT adds a new dimension to the interaction between objects: from any time, any place
+connectivity for everyone, we will have connectivity for anything ~\cite{tan2010future}.
+Thus, in comparison to Ubiquitous technologies, IoT focuses not only on the interaction
+between humans and devices but also on the devices themselves.
+
+The idea of IoT was first proposed by Kevin Ashton in 1999 ~\cite{ashton2009internet}
+by linking the idea of RFID (Radio Frequency Identification) to the topic of the Internet.
+IoT can be characterized as one big network where all devices can share information about their status with
+each other allowing to achieve deeper automation and integration within a system.
+In the “Internet of Things: A Literature Review” paper~\cite{madakam2015internet}, authors describe
+the genesis of the term “IoT” which help us to understand the general concept behind it and
+corresponding key technologies that it uses.
+They explained the concept by dividing the definition of IoT into two components: "Internet"
+as a global system of interconnected computer networks that use the Internet protocol to serve users worldwide
+and "Thing" as real objects in the physical or material world.
+This explanation helps us to understand that inanimate objects such as lamps, speakers,
+etc can communicate with other objects with the help of the Internet without any explicit human instructions.
+Thus, in our work, we use mascots, tablet, lamp, and speakers as a representation of inanimate
+objects called “things”, which can interact with each other and send information over the local network.
+
+Also, this paper provides key technology of IoT such as Radio Frequency Identification,
+Electronic Product Code, ZigBee, etc.
+From the technical point of view, RFID is primarily relevant to the unique identification of
+a “thing” to communicate with other objects.
+ZigBee is widely used, short-range, low-rate wireless network technology, thus, in our
+system, the communication between mascot and lamp is built with the help of the Zigbee Lighting protocol.
+Additionally, an inexpensive radio technology Bluetooth Low Energy is also very useful for proximity sensing.
+In addition to these technologies which are considered as a pillar for the communication between
+objects, the more detailed description of their usage can be found in the implementation chapter (see chapter 4).
+
+An example of research work in the area of IoT may be “Explorations on Reciprocal
+Interplay in Things Ecology”~\cite{chung2018explorations} where the authors are trying to
+stimulate scientists to a more detailed discussion about the design qualities of the IoT devices.
+For that, Chung et al conducted the HiddenLocal workshop (HWL) to explore and design
+IoT systems, where they take into account reciprocal interplay believing that it makes the
+design of IoT systems more dynamic.
+As a starting point, authors show 7 perceptual qualities as follows: focus the senses;
+show explorative behavior;
+subtleness of movement;
+react to the external event;
+recognize explorative behavior subject;
+reflex contextual noise;
+remember and anticipate perception over time.
+Authors believe that these perceptual qualities are a good approach for designed explorative
+features of devices and therefore for the things-to-things interaction.
+
+\section{Social Internet of Things}
+\label{sec:Social Internet of Things}
+According to the “The Internet of Things: A survey” paper ~\cite{atzori2010internet},
+there are many issues related to the IoT that require further
+research and need to be addressed.
+One of them is that people still cannot be sure about the privacy of the transferred data
+through IoT technologies.
+Another issue is network navigability which must ensure that the discovery of objects can be
+performed effectively and the reaction to the state of other objects is enhanced.
+Atzori et al ~\cite{atzori2011siot} formalized a new paradigm of Social Internet of Things (SIoT)
+where the interaction among smart objects is based on the notion of Social Relationship of things.
+Thus, the application of this concept to the IoT can lead to the improvement
+of the network navigability and scalability.
+The architectural model of SIoT describes the establishment of the social relationships
+among objects in a fashion that is relatively similar to the human social network relationship.
+
+Applying a new paradigm to the IoT concept can lead to the following advantages~\cite{atzori2011siot, atzori2012social}:
+\begin{itemize}
+  \item Establishing the level of trustworthiness by leveraging relationship types and by
+        supporting services usable among things that are “friends”.
+  \item Improvements in network navigability.
+  \item A guarantee of higher scalability and efficiency.
+\end{itemize}
+
+By integrating social networking concepts into the Internet of Things, intelligent things
+establish a connection with other peers autonomously by exploiting things' social relationships.
+An exemplary connection between smart things that we also refer to as "social things" in our
+study may be mascot-mascot, mascot-tablet, mascot-lamp, and mascot-speakers interactions.
+The application of the SIoT concept will help to accomplish complex tasks such as changing
+object behavior according to the given information.
+Therefore, with the help of the advantages provided by social networking principles,
+the IoT evolves into the concept of the SIoT\@.
+Thus, social relationships can be established among
+the devices in order to advertise information about their current state and provide services to their peers.
+
+\section{Autonomous interaction of things}
+\label{sec:Autonomous interaction of things}
+Most devices using the concept of IoT are designed to involve the user in the process
+where the user's explicit instructions trigger certain functions of a system in order to effects the behavior of objects.
+This design contradicts the concept of a fully automated system where objects
+can cooperate with each other beyond the control of a human.
+The following paper ~\cite{okada2016autonomous}, which is an inspiration for our work,
+introduces the design methodology to achieve a more autonomous system.
+The authors applied the concept of SIoT and consider objects as living beings that are
+able to communicate with others and exchange information autonomously.
+This approach allows objects to have their own social circle similar to a human social network.
+This broadcast information calls certain functions that affect the behavior of objects,
+thus, allowing objects to be aware of the status of other objects and the surrounding environment.
+
+The concept of Social Things which is also essential for our system helps the objects to know:
+\begin{itemize}
+    \item Their goals.
+    \item What to do with the received information.
+    \item What actions need to be taken to achieve these goals.
+\end{itemize}
+In our work, goals and the combination of actions that will be triggered
+depending on the received information, are all predefined.
+
+As a case study, the authors developed a system with two devices.
+One of them is the mascot - a small keychain of three colors:
+red, green and blue presented in the form of a personal object that the user can carry with him everywhere.
+Another device is a bench with built-in lamps presented as a more static device for public use.
+In our system, the device that is called mascot is a user's smartphone and as an
+analogy of the bench, we use the term lamp.
+The description of all further devices used in our system is given
+in Section~\ref{sec:Identifying case studies and actions}.
+
+Besides, in the system described in the paper~\cite{okada2016autonomous}, two scenarios are considered:
+\begin{itemize}
+  \item \textbf{Mascot - mascot interaction}, as one mascot approaches another, they both start to blink where the
+        intensity of blink depends on the distance objects are from each other.
+  \item \textbf{Mascot - bench interaction}, as mascot goes close to the bench, the lights
+        start to change their colors based on the color of the mascot that is approaching.
+\end{itemize}
+
+The biggest contribution of this paper was to introduce the autonomously cooperative
+system where mascot and bench represented as private and public things.
+Moreover, authors also considered proximity-based cooperation: devices blink more often when
+approaching closer than 30 cm and blink with less intensity when approaching more than 150 cm.
+By using the concept presented in this study, namely, autonomous interaction between objects-things
+achieved with the help of the SIoT concept, we are planning to expand the system by adding more objects,
+and therefore case-studies.
+Afterward, we are going to apply the theory of proxemics and the concept of the personality
+traits which will be covered in the following sections.
+In addition to the two categories that authors described in their paper i.e.\ private and public "things"
+presented by two objects (mascot and bench, respectively), in Section~\ref{sec:The Theory of Proxemics}
+we are planning to look at more detailed divisions.
+
+\section{The Theory of Proxemics}
+\label{sec:The Theory of Proxemics}
+Edward Hall ~\cite{hall1966hidden,hall1963system} conceptualized the idea of a
+personal space bubble by creating a whole system of notation to understand
+and record how people navigate shared space.
+He correlated a physical distance to a social distance.
+According to these papers, Hall identified four distances which are measured horizontally:
+\begin{itemize}
+  \item \textbf{Intimate distance} which varies from 0 to 45 cm is a distance used for romantic partners and family members.
+  \item \textbf{Personal distance} varies from 46 to 121 cm is a space bubble which allows your extended family
+        members and close friends to enter this zone.
+  \item \textbf{Social distance} varies from 122 to 369 cm is often used for acquaintances and colloquies.
+  \item \textbf{Public distance}, having a range of 370 cm and more, is often used in public speaking
+        situation and with strangers, you want to maintain your distance from.
+\end{itemize}
+
+He also analyzed vertical distances, for example, the difference in vertical distance
+between people can reflect the degree of dominance.
+However, in our study, we focus only on horizontal distances.
+
+Nowadays, there are many studies in which Proxemics has been used to design interactions.
+For example, Jo Vermeulen et al in their work ~\cite{vermeulen2015proxemic} used zones to
+interact with vertical interactive displays where they suggested floor display as an auxiliary device.
+The contributions of using the secondary display are the following:
+\begin{itemize}
+    \item Provides peripheral information about the tracking status of a user.
+    \item Shows interaction zones.
+    \item Invites the user to interact with the main display.
+    \item Suggests possible interaction steps.
+\end{itemize}
+This kind of floor visualization with continuous feedback about proximity gives the user
+more control over their interaction with the system.
+
+Another example system using Proxemics is the Remote Controls system introduced by
+Ledo et.al in their ~\cite{ledo2015proxemic} paper.
+Remote control devices were created in such a way that people could
+control appliances from a certain distance.
+However, with the increase in the number of home appliances, the number of remote controls also increasing.
+For this purpose, the universal remotes have been proposed providing a one-remote-to-many-appliances solution.
+Unfortunately, this design has setup issues and poorly adaptable interface.
+The authors of this paper presented the proxemic-aware controls that utilize the spatial relationship between
+mobile devices owned by a user and appliances surrounding it.
+With this system, a user can discover and select the devices within large ecologies of appliances,
+view their current status, and control their features.
+Moreover, as a user moves closer or farther to a particular device, the interface adjusts accordingly.
+For example, in the initial state, the tablet screen visualizes icons representing the
+location of appliances at the edge of the screen, these icons are dynamically updated as he moves.
+Through spatial interactions, people can leverage mobile devices to discover and select appliances.
+This allows for situated interaction that balances simple and flexible control while seamlessly
+transitioning between different control interfaces.
+Ubicomp, which they use as short for Ubiquitous Computing, is a starting point for
+developing a new type of remote control interface within our increasingly complex world.
+
+Also, Ballendat, Nicolai Marquardt, and Saul Greenberg in their
+work~\cite{ballendat2010proxemic} introduce proxemic-aware interactive media player system,
+where they consider information regarding nearby people and devices to mediate the interaction.
+They cover a small space Ubicomp environment considering the relationships of people to devices;
+devices to devices;
+and non-digital objects to people and devices.
+The system reacts to a person’s presence, distance, and orientation regarding the display.
+Proxemic interaction also considers a person’s relationship with nearby objects.
+The authors propose different cases, for example, the video displaying on the screen pauses
+when a person is having a phone conversation or when he picks a magazine to read it.
+Another case is when a person enters the room, the screen shows a video title as additional information for him.
+Moreover, the video is paused when both people face away from the screen to start a conversation with each other.
+Furthermore, the system turns off when everyone has left the room.
+However, the authors also emphasize that one of the biggest unsolved
+problems in this area might be how the system can respond to the received information about
+proxemics because sometimes the devices can make a mistake by taking a certain action.
+Despite all these problems, the authors, as well as we believe that proxemics will
+become an important factor in the embodiment of the interaction between social objects
+where they can meet the social expectations of people.
+
+In our research, we are planning to extend the autonomous system, which was
+described in Section~\ref{sec:Autonomous interaction of things}, by categorizing devices
+according to the theory of Proxemics using only horizontal measurements.
+Our goal is to cover all four categories of Proxemics which are represented by four
+artifacts such as mascot, tablet, lamp, and speakers, thereby, constituting four case studies.
+Thus, each of these devices is located at a certain distance from each other representing
+the relationships between them.
+These relationships will help us to conceptualize their interactions, come up with case studies and possible actions.
+
+\section{Interaction design for SIoT}
+\label{sec:Interaction design for SIoT}
+
+The following paper ~\cite{soro2018social} motivated us to apply a concept of
+personality in the context of social devices.
+An example use of personality as a method to design an interactive object’s behavior
+was proposed in “Designing the Behaviour of Interactive Objects” paper~\cite{spadafora2016designing}.
+The author concluded that to design a more stable and understandable
+for a user behavior of a device, it is necessary to add an inner logic to which we can refer.
+Marco et al proposed to apply the concept of metaphor, which represents human stereotypes
+of personality to visualize the inner logic.
+Their system was based on a Big Five Personality Traits model, thus,
+by assigning these personalities to objects, users could describe its behavior more easily.
+The authors believe that stereotypes and metaphors are simplified descriptions of being and behavior,
+therefore, making it an ideal method for displaying the sustainable behavior of a smart object.
+During the research, they used the robotic sofa as a case study and tried to analyze how
+users perceive the consistency of its behavior.
+The use of the personality model in the device design process, helps a user to create
+a mental model of how an autonomous sofa-bot will act in the future.
+
+Having a system, where tablet, lamp, and speakers are considered as static objects,
+whereas mascots are dynamic, we can apply the Personality Model.
+Since only mascots are a major factor affecting the environment
+(for example, when mascot come close to the lamp, it changes the light color), we decided to
+assign a personality to dynamic objects, particularly, to each mascot.
+
+This approach may help the user to better understand the mascot's behavior.
+Knowing which goals and intentions this object follows, may help users to understand the
+behavior and the reason for certain decisions of a mascot.
+Thus, the device with an assigned personality can help users who know the definition
+of that personality to understand the system behavior at least in an intuitive way.
+This concept may give the system a more understandable and consistent behavior
+and to the user a better awareness of object functionality.
+In the following subsection, we will describe the Personality Model in more detail.
+
+\section{Definition of personality traits}
+\label{sec:Definition of Personality Traits}
+
+The personality is important for human relationships, so we assume that it also may be important for device relationships.
+To assign a personality to each mascot, we first need to define personality in the context of social devices.
+We can try to intuitively explain the meaning of a person’s personality trait,
+however, it is hard to apply it in the context of SIoT\@.
+For that, we need a generally accepted model for the description of each personality which is a
+Big Five Personality Traits aka OCEAN Model\@.
+We expect that describing personality will help to define goals and
+more targeted actions which in turn will lead the system to more stable behavior.
+The following book ~\cite{matthews2003personality} gives a good introduction to the
+personality types describing possible existing personality models.
+One of the models that can be used was introduced by Costa and McCrae’s five-factor
+model which is also known as Big Five Personality Traits and the OCEAN model.
+Moreover, their concept formed a basis for the widely used NEO-Personality
+Inventory-Revised (NEO-PI-R) measurement scale.
+
+The OCEAN model consists of the following features: \textbf{O}penness to experience,
+\textbf{C}onscientiousness, \textbf{E}xtroversion, \textbf{A}greeableness, and \textbf{N}euroticism.
+The authors lists the facets associated with each of these five domains:
+
+\begin{itemize}\label{table:opennessFacets}
+  \item  \textbf{Openness to experience}: creativity, innovative quality;
+          quick receptivity to new and abstract ideas, high intelligence and openness to novelty;
+  \item  \textbf{Conscientiousness}: organized, well-prepared, discipline, likes planned action more than spontaneity, more focused.
+  \item  \textbf{Extroversion}: energetic, assertive personality, like to be the center of attention,
+          like to dominate, feel comfortable around people;
+  \item  \textbf{Agreeableness}: friendliness, compassion for other people, interested in people,
+          sympathize with the feelings of others, soft-hearted;
+  \item  \textbf{Neuroticism}:  irritability, more hostile towards others, most often feel anxiety
+          when they are surrounded by others, frequent mood swings, emotionally unstable;
+  \end{itemize}
+
+The dynamic objects are assigned with a set of personality traits each of which
+is described in the above-mentioned list.
+Although people usually have a combination of these five traits,
+we are going to consider only extreme cases and take into account each personality independently.

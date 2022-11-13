@@ -1,0 +1,415 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem{alschuler1943easel}
+{Rose~H Alschuler} {and} {LaBerta~A Hattwick}. 1943.
+\newblock \showarticletitle{Easel painting as an index of personality in
+  preschool children.}
+\newblock {\em American Journal of Orthopsychiatry\/} {13}, 4 (1943), 616.
+\newblock
+
+
+\bibitem{ashton2009internet}
+{Kevin Ashton} {and} {others}. 2009.
+\newblock \showarticletitle{That ‘internet of things’ thing}.
+\newblock {\em RFID journal\/} {22}, 7 (2009), 97--114.
+\newblock
+
+
+\bibitem{atzori2010internet}
+{Luigi Atzori}, {Antonio Iera}, {and} {Giacomo Morabito}. 2010.
+\newblock \showarticletitle{The internet of things: A survey}.
+\newblock {\em Computer networks\/} {54}, 15 (2010), 2787--2805.
+\newblock
+
+
+\bibitem{atzori2011siot}
+{Luigi Atzori}, {Antonio Iera}, {and} {Giacomo Morabito}. 2011.
+\newblock \showarticletitle{Siot: Giving a social structure to the internet of
+  things}.
+\newblock {\em IEEE communications letters\/} {15}, 11 (2011), 1193--1195.
+\newblock
+
+
+\bibitem{atzori2012social}
+{Luigi Atzori}, {Antonio Iera}, {Giacomo Morabito}, {and} {Michele Nitti}.
+  2012.
+\newblock \showarticletitle{The social internet of things (siot)--when social
+  networks meet the internet of things: Concept, architecture and network
+  characterization}.
+\newblock {\em Computer networks\/} {56}, 16 (2012), 3594--3608.
+\newblock
+
+
+\bibitem{bagherian2016relationship}
+{Mandana Bagherian} {and} {Adis~Kraskian Mojambari}. 2016.
+\newblock The relationship between Big Five personality traits and
+  assertiveness.
+\newblock   (2016).
+\newblock
+
+
+\bibitem{ballendat2010proxemic}
+{Till Ballendat}, {Nicolai Marquardt}, {and} {Saul Greenberg}. 2010.
+\newblock \showarticletitle{Proxemic interaction: designing for a proximity and
+  orientation-aware environment}. In {\em ACM International Conference on
+  Interactive Tabletops and Surfaces}. 121--130.
+\newblock
+
+
+\bibitem{boer2011shared}
+{Diana Boer}, {Ronald Fischer}, {Micha Strack}, {Michael~H Bond}, {Eva Lo},
+  {and} {Jason Lam}. 2011.
+\newblock \showarticletitle{How shared preferences in music create bonds
+  between people: Values as the missing link}.
+\newblock {\em Personality and Social Psychology Bulletin\/} {37}, 9 (2011),
+  1159--1171.
+\newblock
+
+
+\bibitem{bonneville2013music}
+{Arielle Bonneville-Roussy}, {Peter~J Rentfrow}, {Man~K Xu}, {and} {Jeff
+  Potter}. 2013.
+\newblock \showarticletitle{Music through the ages: Trends in musical
+  engagement and preferences from adolescence through middle adulthood.}
+\newblock {\em Journal of personality and social psychology\/} {105}, 4 (2013),
+  703.
+\newblock
+
+
+\bibitem{cerrato2012meaning}
+{Herman Cerrato}. 2012.
+\newblock \showarticletitle{The meaning of colors}.
+\newblock {\em The Graphic Designer\/} (2012).
+\newblock
+
+
+\bibitem{chung2018explorations}
+{David Chung}, {Mathias Funk}, {Rung-Huei Liang}, {and} {Lin-Lin Chen}. 2018.
+\newblock \showarticletitle{Explorations on reciprocal interplay in things
+  ecology}. In {\em Proceedings of the 2018 ACM Conference Companion
+  Publication on Designing Interactive Systems}. 51--56.
+\newblock
+
+
+\bibitem{costa1988catalog}
+{Paul~T Costa~Jr} {and} {Robert~R McCrae}. 1988.
+\newblock \showarticletitle{From catalog to classification: Murray's needs and
+  the five-factor model.}
+\newblock {\em Journal of personality and social psychology\/} {55}, 2 (1988),
+  258.
+\newblock
+
+
+\bibitem{costa2008revised}
+{Paul~T Costa~Jr} {and} {Robert~R McCrae}. 2008.
+\newblock {\em The Revised NEO Personality Inventory (NEO-PI-R).}
+\newblock Sage Publications, Inc.
+\newblock
+
+
+\bibitem{dunn2012toward}
+{Peter~Gregory Dunn}, {Boris de Ruyter}, {and} {Don~G Bouwhuis}. 2012.
+\newblock \showarticletitle{Toward a better understanding of the relation
+  between music preference, listening behavior, and personality}.
+\newblock {\em Psychology of Music\/} {40}, 4 (2012), 411--428.
+\newblock
+
+
+\bibitem{fricke2017personality}
+{Kai~R Fricke} {and} {Philipp~Y Herzberg}. 2017.
+\newblock \showarticletitle{Personality and self-reported preference for music
+  genres and attributes in a German-speaking sample}.
+\newblock {\em Journal of Research in Personality\/}  {68} (2017), 114--123.
+\newblock
+
+
+\bibitem{george2007association}
+{Darren George}, {Kelly Stickle}, {Faith Rachid}, {and} {Alayne Wopnford}.
+  2007.
+\newblock \showarticletitle{The association between types of music enjoyed and
+  cognitive, behavioral, and personality factors of those who listen.}
+\newblock {\em Psychomusicology: A Journal of Research in Music Cognition\/}
+  {19}, 2 (2007), 32.
+\newblock
+
+
+\bibitem{gjerdingen2008scanning}
+{Robert~O Gjerdingen} {and} {David Perrott}. 2008.
+\newblock \showarticletitle{Scanning the dial: The rapid recognition of music
+  genres}.
+\newblock {\em Journal of New Music Research\/} {37}, 2 (2008), 93--100.
+\newblock
+
+
+\bibitem{greenberg2016song}
+{David~M Greenberg}, {Michal Kosinski}, {David~J Stillwell}, {Brian~L
+  Monteiro}, {Daniel~J Levitin}, {and} {Peter~J Rentfrow}. 2016.
+\newblock \showarticletitle{The song is you: Preferences for musical attribute
+  dimensions reflect personality}.
+\newblock {\em Social Psychological and Personality Science\/} {7}, 6 (2016),
+  597--605.
+\newblock
+
+
+\bibitem{hall1963system}
+{Edward~T Hall}. 1963.
+\newblock \showarticletitle{A system for the notation of proxemic behavior}.
+\newblock {\em American anthropologist\/} {65}, 5 (1963), 1003--1026.
+\newblock
+
+
+\bibitem{hall1966hidden}
+{Edward~Twitchell Hall}. 1966.
+\newblock {\em The hidden dimension}. Vol. 609.
+\newblock Garden City, NY: Doubleday.
+\newblock
+
+
+\bibitem{hupfeld2000spatially}
+{Felix Hupfeld} {and} {Michael Beigl}. 2000.
+\newblock \showarticletitle{Spatially aware local communication in the RAUM
+  system}. In {\em International Workshop on Interactive Distributed Multimedia
+  Systems and Telecommunication Services}. Springer, 285--296.
+\newblock
+
+
+\bibitem{kirst2011investigating}
+{Laura~K Kirst}. 2011.
+\newblock \showarticletitle{Investigating the relationship between
+  assertiveness and personality characteristics}.
+\newblock  (2011).
+\newblock
+
+
+\bibitem{langmeyer2012music}
+{Alexandra Langmeyer}, {Angelika Guglh{\"o}r-Rudan}, {and} {Christian Tarnai}.
+  2012.
+\newblock \showarticletitle{What do music preferences reveal about
+  personality?}
+\newblock {\em Journal of individual differences\/} (2012).
+\newblock
+
+
+\bibitem{ledo2015proxemic}
+{David Ledo}, {Saul Greenberg}, {Nicolai Marquardt}, {and} {Sebastian Boring}.
+  2015.
+\newblock \showarticletitle{Proxemic-aware controls: Designing remote controls
+  for ubiquitous computing ecologies}. In {\em Proceedings of the 17th
+  International Conference on Human-Computer Interaction with Mobile Devices
+  and Services}. 187--198.
+\newblock
+
+
+\bibitem{lefevre1981assertiveness}
+{Esther~R Lefevre} {and} {Malcolm~L West}. 1981.
+\newblock \showarticletitle{Assertiveness: Correlations with self-esteem locus
+  of control, interpersonal anxiety, fear of disapproval, and depression.}
+\newblock {\em Psychiatric Journal of the University of Ottawa\/} (1981).
+\newblock
+
+
+\bibitem{luscher1971luscher}
+{Max L{\"u}scher}. 1971.
+\newblock {\em The Luscher color test}.
+\newblock Simon and Schuster.
+\newblock
+
+
+\bibitem{madakam2015internet}
+{Somayya Madakam}, {Vihar Lake}, {Vihar Lake}, {Vihar Lake}, {and} {others}.
+  2015.
+\newblock \showarticletitle{Internet of Things (IoT): A literature review}.
+\newblock {\em Journal of Computer and Communications\/} {3}, 05 (2015), 164.
+\newblock
+
+
+\bibitem{matthews2003personality}
+{Gerald Matthews}, {Ian~J Deary}, {and} {Martha~C Whiteman}. 2003.
+\newblock {\em Personality traits}.
+\newblock Cambridge University Press.
+\newblock
+
+
+\bibitem{okada2016autonomous}
+{Miyo Okada}, {Atsuro Ueki}, {Niclas Jonasson}, {Masato Yamanouchi}, {Cristian
+  Norlin}, {Hideki Sunahara}, {Joakim Formo}, {Mikael Anneroth}, {and} {Masa
+  Inakage}. 2016.
+\newblock \showarticletitle{Autonomous cooperation of social things: Designing
+  a system for things with unique personalities in IoT}. In {\em Proceedings of
+  the 6th International Conference on the Internet of Things}. 35--42.
+\newblock
+
+
+\bibitem{paunonen2001big}
+{Sampo~V Paunonen} {and} {Michael~C Ashton}. 2001.
+\newblock \showarticletitle{Big five factors and facets and the prediction of
+  behavior.}
+\newblock {\em Journal of personality and social psychology\/} {81}, 3 (2001),
+  524.
+\newblock
+
+
+\bibitem{ramanaiah1993neo}
+{Nerella~V Ramanaiah} {and} {William~M Deniston}. 1993.
+\newblock \showarticletitle{NEO personality inventory profiles of assertive and
+  nonassertive persons}.
+\newblock {\em Psychological reports\/} {73}, 1 (1993), 336--338.
+\newblock
+
+
+\bibitem{rentfrow2011structure}
+{Peter~J Rentfrow}, {Lewis~R Goldberg}, {and} {Daniel~J Levitin}. 2011.
+\newblock \showarticletitle{The structure of musical preferences: a five-factor
+  model.}
+\newblock {\em Journal of personality and social psychology\/} {100}, 6 (2011),
+  1139.
+\newblock
+
+
+\bibitem{rentfrow2003re}
+{Peter~J Rentfrow} {and} {Samuel~D Gosling}. 2003.
+\newblock \showarticletitle{The do re mi's of everyday life: the structure and
+  personality correlates of music preferences.}
+\newblock {\em Journal of personality and social psychology\/} {84}, 6 (2003),
+  1236.
+\newblock
+
+
+\bibitem{rentfrow2006message}
+{Peter~J Rentfrow} {and} {Samuel~D Gosling}. 2006.
+\newblock \showarticletitle{Message in a ballad: The role of music preferences
+  in interpersonal perception}.
+\newblock {\em Psychological science\/} {17}, 3 (2006), 236--242.
+\newblock
+
+
+\bibitem{rentfrow2007content}
+{Peter~J Rentfrow} {and} {Samuel~D Gosling}. 2007.
+\newblock \showarticletitle{The content and validity of music-genre stereotypes
+  among college students}.
+\newblock {\em Psychology of music\/} {35}, 2 (2007), 306--326.
+\newblock
+
+
+\bibitem{schafer2017can}
+{Thomas Sch{\"a}fer} {and} {Claudia Mehlhorn}. 2017.
+\newblock \showarticletitle{Can personality traits predict musical style
+  preferences? A meta-analysis}.
+\newblock {\em Personality and Individual Differences\/}  {116} (2017),
+  265--273.
+\newblock
+
+
+\bibitem{schafer2009functions}
+{Thomas Sch{\"a}fer} {and} {Peter Sedlmeier}. 2009.
+\newblock \showarticletitle{From the functions of music to music preference}.
+\newblock {\em Psychology of Music\/} {37}, 3 (2009), 279--300.
+\newblock
+
+
+\bibitem{schaie1961scaling}
+{K~Warner Schaie}. 1961.
+\newblock \showarticletitle{Scaling the association between colors and
+  mood-tones}.
+\newblock {\em The american journal of psychology\/} {74}, 2 (1961), 266--273.
+\newblock
+
+
+\bibitem{schaie1964color}
+{Klaus~Warner Schaie} {and} {Robert Heiss}. 1964.
+\newblock \showarticletitle{Color and personality.}
+\newblock  (1964).
+\newblock
+
+
+\bibitem{soro2018social}
+{Alessandro Soro}, {Margot Brereton}, {and} {Paul Roe}. 2018.
+\newblock {\em Social Internet of Things}.
+\newblock Springer.
+\newblock
+
+
+\bibitem{spadafora2016designing}
+{Marco Spadafora}, {Victor Chahuneau}, {Nikolas Martelaro}, {David Sirkin},
+  {and} {Wendy Ju}. 2016.
+\newblock \showarticletitle{Designing the behavior of interactive objects}. In
+  {\em Proceedings of the TEI'16: Tenth International Conference on Tangible,
+  Embedded, and Embodied Interaction}. 70--77.
+\newblock
+
+
+\bibitem{tan2010future}
+{Lu Tan} {and} {Neng Wang}. 2010.
+\newblock \showarticletitle{Future internet: The internet of things}. In {\em
+  2010 3rd international conference on advanced computer theory and engineering
+  (ICACTE)}, Vol.~5. IEEE, V5--376.
+\newblock
+
+
+\bibitem{vermeulen2015proxemic}
+{Jo Vermeulen}, {Kris Luyten}, {Karin Coninx}, {Nicolai Marquardt}, {and} {Jon
+  Bird}. 2015.
+\newblock \showarticletitle{Proxemic flow: Dynamic peripheral floor
+  visualizations for revealing and mediating large surface interactions}. In
+  {\em IFIP Conference on Human-Computer Interaction}. Springer, 264--281.
+\newblock
+
+
+\bibitem{weiser1999computer}
+{Mark Weiser}. 1999.
+\newblock \showarticletitle{The computer for the 21st century}.
+\newblock {\em ACM SIGMOBILE mobile computing and communications review\/} {3},
+  3 (1999), 3--11.
+\newblock
+
+
+\bibitem{zuckerman1988lies}
+{Marvin Zuckerman}, {D~Michael Kuhlman}, {and} {Curt Camac}. 1988.
+\newblock \showarticletitle{What lies beyond E and N? Factor analyses of scales
+  believed to measure basic dimensions of personality.}
+\newblock {\em Journal of personality and social psychology\/} {54}, 1 (1988),
+  96.
+\newblock
+
+
+\bibitem{zweigenhaft2008re}
+{Richard~L Zweigenhaft}. 2008.
+\newblock \showarticletitle{A do re mi encore: A closer look at the personality
+  correlates of music preferences}.
+\newblock {\em Journal of individual differences\/} {29}, 1 (2008), 45--55.
+\newblock
+
+
+\end{thebibliography}
